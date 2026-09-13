@@ -12,7 +12,7 @@ import java.net.URI
 
 class Pencurimovie : MainAPI() {
 
-    override var mainUrl = "https://ww11.pencurimovie.sbs"
+    override var mainUrl = "https://pencurimoviesubmalay26.site/"
     private val mainUrlJson = "https://raw.githubusercontent.com/Asm0d3usX/CloudX/builds/Website.json"
     private var directUrl: String? = null
     override var name = "Pencurimovie"
