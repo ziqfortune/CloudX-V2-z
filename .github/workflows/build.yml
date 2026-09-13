@@ -23,7 +23,7 @@ jobs:
       - name: Build plugins
         run: |
           chmod +x gradlew
-          ./gradlew buildPlugins --no-daemon --stacktrace
+          ./gradlew makePlugins --no-daemon --stacktrace
 
       - name: Collect .cs3 files
         run: find . -name "*.cs3" -exec mv {} . \;
